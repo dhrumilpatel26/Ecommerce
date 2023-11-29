@@ -1,0 +1,534 @@
+
+  @media (min-width:1024px){
+    main {
+        display: flex;
+        flex-direction: column;
+      } 
+      .inner img{
+        width: 140px;
+        height: 60px;
+        flex: 1;
+        padding-left: 50px;
+        padding-top: 7px;
+    
+    }
+      header {
+        width: 100%;
+        min-height: 40vh;
+        background-image:url(home-new-bg-free-img.jpg);
+        
+        background-position: center;
+        position: relative;
+        background-size: cover;
+      } 
+      nav{
+        display: flex;
+        justify-content: space-between;
+      
+        height: 75px;
+        line-height: 75px;
+        background: rgba(41, 94, 163, 0.5);
+      }
+      nav ul{
+        display: flex; 
+        justify-content: flex-end;
+        flex: 6;
+      }
+      nav ul li{
+        cursor: pointer;
+        height: 100%;
+        padding: 0 20px;
+        transition: .4s;
+      }
+      nav ul li:hover{
+        background-color: orange;
+      }
+      nav ul a{
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+      
+      }
+      
+      .logoes{
+        background-color: white;
+        padding: 4%;
+        /* margin-left: 31%; */
+        display: flex;
+      }
+      .looes0{
+        padding-top: 2%;
+        padding-right: 2%;
+        width: 20%;
+      }
+      div.latest{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0%;
+      }
+      div.sale1{
+        background-image: url(women-fashion-free-img.jpg);
+        display: block;
+        background-size: 100%;
+        width: 30%;
+        padding-right: 1%;
+        
+        padding: 1%;
+        text-align:left;
+        color: white;
+        margin-right: 1%;
+      }
+      div.sale2{
+        background-image: url(men-fashion-free-img.jpg);
+        display: block;
+        background-size: 100%;
+        width: 30%;
+        padding-right: 1%;
+        
+        padding: 1%;
+        color: white;
+        margin-right: 1%;
+      }
+      div.sale3{
+        background-image: url(footwear-free-img.jpg);
+        display: block;
+        background-size: 100%;
+        width: 30%;
+        padding-right: 1%;
+      
+        padding: 1%;
+        color: white;
+        margin-right: 1%;
+      }
+      .section{
+        width: 100%;
+        display: flex;
+      }
+      .speacial{
+        background-image: conic-gradient(rgb(50, 141, 245), rgb(63, 33, 172), rgb(63, 129, 190),rgb(52, 100, 204));
+        background-color: rgb(10, 83, 167);
+        color: white;
+        padding-top: 50px;
+        padding-left: 50px;
+        margin-left: 1%;
+        margin-top: 5%;
+        padding-bottom: 60px;
+      }
+      .payment{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+      }
+      div.img1{
+        margin: 4%;
+        text-align: center;
+      }
+      .footer{
+        margin-top: 2px;
+        display: flex;
+      }
+      .footer div{
+        text-align: left;
+        width: 100%;
+      }
+      .footer div h3{
+        font-weight: 200;
+        margin-bottom: 10px;
+        margin-top: 0px;
+      }
+      .col-1 a ,.col-2 a ,.col-3 a{
+        display: flex;
+        text-decoration: none;
+        margin-bottom: 10px;
+        color: black;
+        width:25%
+      }
+      .left p{
+        float: left;
+        margin-left: 50px;
+      }
+      .right p{
+        float:right;
+        margin-right: 50px;
+      }
+      div.images img {
+        width: 90%;
+        height: 70%;
+        display: block;
+      }
+      div.accimg img {
+        width: 90%;
+        height: 70%;
+        display: block;
+        padding-top: 8%;
+      }
+      .repet
+      {
+        width: 100%;
+        min-height: 20vh;
+        background-image:url("home-new-bg-free-img.jpg");
+        
+        object-fit: cover;
+        background-position: 75% 20%;
+      }
+      .text2{
+        text-align: center;
+        padding-top: 4%;
+      }
+      
+
+  }
+  @media(max-width:1024px){
+    .logoes{
+        background-color: white;
+        padding: 4%;
+        padding-left: 35%;
+        margin-left: 0%;
+      }
+      div.latest{
+        background-color: white;
+        width:100%;
+      }
+      div.sale1{
+        background-image: url('women-fashion-free-img.jpg');
+        background-size: 100%;
+        
+        padding: 1%;
+        margin-bottom: 2%;
+        color: white;
+      }
+      div.sale2{
+        background-image: url(men-fashion-free-img.jpg);
+        background-size: 100%;
+        margin-bottom: 2%;
+        
+        padding: 1%;
+        color: white;
+       } 
+       div.sale3{
+        background-image: url(footwear-free-img.jpg);
+        background-size: 100%;
+        
+        padding: 1%;
+        color: white;
+      }
+       div.images img {
+        width: 100%;
+        padding-top: 5%;
+        }
+        div.accimg img {
+            width: 100%;
+          }
+      .payment{
+        flex-direction: row;
+        padding-top: 6%;
+        padding-bottom: 6%;
+        width:100%;
+      }
+      .repet
+      {
+        width: 100%;
+        min-height: 8vh;
+        background-image:url("home-new-bg-free-img.jpg");
+        opacity: 0.9; 
+        object-fit: cover;
+        background-position: 65% 20%;
+      }
+      div.img1{
+        margin: 4%;
+        text-align: center;
+      }
+      .footer{
+        padding-left: 35%;
+        padding-top: 8%;
+      }
+      .col-1 a ,.col-2 a ,.col-3 a{
+        display: flex;
+        text-decoration: none;
+        margin-bottom: 10px;
+        color: black;
+      }
+      
+      .speacial{
+        background-image: conic-gradient(rgb(50, 141, 245), rgb(63, 33, 172), rgb(63, 129, 190),rgb(52, 100, 204));
+        background-color: rgb(10, 83, 167);
+        color: white;
+        padding-top: 50px;
+        padding-left: 50px;
+        margin-top: 5%;
+        padding-bottom: 60px;
+      }
+      .looes0{
+        font-size: xx-large;
+        font-style:solid;
+        padding-right: 2%;
+        padding-top: 13%;
+        width: 14%;
+    }
+    header {
+        width: 100%;
+        min-height: 40vh;
+        background-image:url("home-new-bg-free-img.jpg");
+         
+        background-position:61% 19%;
+      } 
+      .inner img{
+     
+        padding-left:0px;
+        padding-top: 7px;
+    
+    }nav{
+      padding: 0px 10px 8px 25px;
+    
+    }
+    nav ul li{
+      padding: 0 11px;
+      margin: 5%;
+    }
+    .text2{
+      text-align: center;
+      padding-top: 8%;
+    }
+    hr{
+      display: none;
+    }
+}
+@media(max-width:1007px){
+.inner img{
+ flex: 1;
+  padding-left:0px;
+  padding-top: 7px;
+
+}
+.title h1{
+font-size:50px ;
+}
+.title h3{
+font-size: 14px;
+}
+nav{
+  display: flex;
+padding: 0px 10px 0px 25px;
+align-items: center;
+padding-bottom: 4%;
+}
+nav ul li{
+padding: 0 11px;
+}
+}
+ @media (max-width:640px)
+ {
+  .inner img{
+    flex: 0;
+    padding-top: 7%;
+  }
+  .title h1{
+    font-size:30px ;
+   }
+   .title h3{
+    font-size: 12px;
+}
+.title p{
+  font-size: 12px;
+
+}
+nav ul{
+  display: grid;
+  position: absolute;
+  width: 96%;
+  top: -17px;
+  left: 8px;
+  height: 67%;
+  transform: translateY(-100%);
+  transition: .6s;
+  justify-content: flex-start;
+  background: #5c1616;
+  /* background: rgba(3, 31, 66, 0.5); */
+ 
+}
+nav ul li{
+  padding: 1%;
+}
+nav ul li a{
+  font-size: large;
+  color: white;
+}
+nav ul li:hover{
+  background-color: #d8f167;
+}
+nav .navbar-toggler{
+  display:grid !important;
+  
+}
+input#toggle:checked ~ nav ul{
+  transform: translateY(0%);
+  top: 78px;
+  display: block;
+  z-index: 1;
+}
+input#toggle:checked ~ nav .navbar-toggler .bar:nth-child(1){
+  position: absolute;
+  transform: rotate(45deg);
+}
+input#toggle:checked ~ nav .navbar-toggler .bar:nth-child(2){
+ display: none;
+}
+input#toggle:checked ~ nav .navbar-toggler .bar:nth-child(3){
+transform: rotate(-45deg);
+}
+}
+nav .navbar-toggler{
+  display: none;
+  height: min-content;
+  margin: 20px 0px 0 0;
+  cursor: pointer;
+  flex: 6;
+  justify-items: flex-end;
+
+}
+
+nav .navbar-toggler .bar{
+  width: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 10%;
+  transition: .4s;
+}
+input{
+  display:none;
+}
+ 
+
+
+
+
+
+  
+  
+  
+  
+  
+  .just{
+    font-size: 90%;
+  }
+*{
+  margin: 0%;
+    padding: 0%;
+    outline: 0;
+    line-height: 35px;
+    list-style: none;
+    /* text-decoration: none; */
+}
+  .content{
+    color: white;
+    max-width: 350px;
+    font-size:30px;
+    padding-left: 3%;
+    padding-bottom: 2%;
+  }
+  .content h1{
+    font-size:40px;
+    font-weight: 600;
+    line-height: 57px;
+    margin-bottom: 27px;
+  }
+  .button {
+    background-color:transparent;
+    border-color: white;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 13px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  .button1:hover {
+    background-color: #8ff192;
+    color: white;
+  }
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+  }
+  .button4:hover {background-color: #e7e7e7;}
+  div.h4{
+    margin-top: 60%;
+    padding-left: 2%;
+  }
+  
+  article,main {
+    background-color: hsl(0, 0%, 94%);
+  }
+  .accessories{
+    text-align: left;
+    margin: 15px;
+    /* display: flex; */
+    flex-direction: row;
+  }
+ 
+  .product{
+    text-align: left;
+    margin: 15px;
+    /* display: flex; */
+    flex-direction: row;
+  }
+ 
+  div.desc h4{
+    text-align: center;
+  }
+  
+  
+  div.p {
+    
+    text-align: left;
+  }
+
+ @media (max-width:640px){
+  body{
+    text-align: center;
+  }
+  h3,h4{
+    text-align: center;
+  }
+  .star{
+    text-align: center;
+    
+  }
+  .spec{
+    margin-left: -15%;
+  }
+  .col-1,.col-4{
+    text-align: center;
+    margin-right: 60%;
+  }
+  .col-3{
+    margin-right:70%;
+  }
+  .col-2{
+    margin-right: 70%;
+
+  }
+ }
+  
+ 
+  
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
